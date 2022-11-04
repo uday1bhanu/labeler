@@ -1,11 +1,11 @@
-FROM golang:1.12-alpine
+FROM uday1bhanu/labeler:0.1.0
 
 LABEL "com.github.actions.name"="Condition-based Pull Request labeller"
 LABEL "com.github.actions.description"="Automatically label pull requests based on rules"
 LABEL "com.github.actions.icon"="award"
 LABEL "com.github.actions.color"="blue"
-LABEL "maintainer"="Galo Navarro <anglorvaroa@gmail.com>"
-LABEL "repository"="https://github.com/srvaroa/labeler"
+LABEL "maintainer"="Galo Navarro <uday1bhanu@gmail.com>"
+LABEL "repository"="https://github.com/uday1bhanu/labeler"
 
 RUN apk add --no-cache git
 
